@@ -206,7 +206,7 @@ html {
   }
   
   .w-icon-nav-menu:before {
-    content: "î˜‚";
+    content: "☰";
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
@@ -5062,7 +5062,7 @@ html {
     }
   
     .menu-button, .menu-button.w--open {
-      flex: none;
+      flex: auto;
     }
   
     .navigation-wrap {
@@ -5121,7 +5121,7 @@ html {
       width: 500px;
       height: 0;
       text-align: left;
-      background-image: url("images\store_logo.png");
+      background-image: url("./images/store_logo.png");
       background-position: 0 0;
       background-size: auto;
       margin-right: 71px;
@@ -5178,6 +5178,7 @@ html {
   
     .navbar {
       color: #68696c;
+      flex:auto;
     }
   
     .nav-link-7 {
